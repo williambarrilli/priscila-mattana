@@ -1,0 +1,68 @@
+.container {
+  display: grid;
+  align-items: center;
+  width: 100vw;
+}
+
+.box-title {
+  display: grid;
+  align-items: center;
+  margin: 2%;
+}
+
+.title {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  padding: 2;
+  text-align: center;
+}
+
+.title-double {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  padding: 2;
+  text-align: center;
+  color: #ff8800;
+}
+
+.video-player {
+  background-color: black;
+  border-radius: 12px;
+  padding: 20px;
+  height: 325px;
+  margin: 5%;
+}
+
+.box-btn {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.btn {
+  font-weight: 500;
+  font-size: 19px;
+  color: #fff;
+  background-color: #ff8800;
+  padding: 10px 10px;
+  border: 2px solid #ff8800;
+  border-radius: 20px;
+  cursor: pointer;
+  margin: 2%;
+}
+
+.btn:hover {
+  transition: 1000ms;
+  transform: translateY(-0px);
+  background-color: #fff;
+  color: #ff8800;
+  border: solid 2px #ff8800;
+}
+
+.text {
+  margin-left: 10%;
+  margin-right: 2%;
+}
