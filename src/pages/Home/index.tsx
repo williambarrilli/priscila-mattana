@@ -7,14 +7,15 @@ export const Home = () => {
       <div className="container">
         <div className="box-title">
           <label className="title">Em um relacionamento</label>
-          <label className="title">saúdavel com o</label>
+          <label className="title">saudável com o</label>
           <label className="title-double">TDAH</label>
           <label className="title"> & </label>
           <label className="title"> A organização</label>
         </div>
         <div className="video-player">
           <ReactPlayer
-            url="https://www.youtube.com/watch?v=wX9AwH8WA3g"
+            // url="https://www.youtube.com/watch?v=LgMo2cOS3HE"
+            url="https://youtu.be/LgMo2cOS3HE"
             controls={true}
             playing
             width={"100%"}
