@@ -1,8 +1,14 @@
 .container {
   display: grid;
   align-items: center;
-  width: 95vw;
   margin: 2%;
+  justify-content: space-around;
+  justify-items: center;
+}
+@media (max-width: 600px) {
+  .container {
+    width: 95vw;
+  }
 }
 
 .box-title {
@@ -29,11 +35,19 @@
 }
 
 .video-player {
-  background-color: black;
+  /* background-color: black; */
   border-radius: 12px;
   padding: 20px;
-  height: 325px;
+  height: 323px;
+  width: 82%;
   margin: 2%;
+}
+
+@media (min-width: 600px) {
+  .video-player {
+    height: 45vh;
+    width: 45vw;
+  }
 }
 
 .box-btn {
@@ -64,6 +78,16 @@
 }
 
 .text {
-  margin-left: 10%;
-  margin-right: 2%;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  padding: 2;
+  text-align: center;
+  margin-left: 6%;
+  margin-right: 7%;
+}
+@media (min-width: 600px) {
+  .text {
+    width: 45vw;
+  }
 }

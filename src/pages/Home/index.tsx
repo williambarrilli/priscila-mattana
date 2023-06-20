@@ -15,7 +15,7 @@ export const Home = () => {
         <div className="video-player">
           <ReactPlayer
             url="https://www.youtube.com/watch?v=LgMo2cOS3HE"
-            controls={true}
+            controls={false}
             playing
             width={"100%"}
             height={"100%"}
