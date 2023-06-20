@@ -23,7 +23,7 @@ export const Home = () => {
         </div>
 
         <label className="text">
-          Aprovada em menos de 30 dias a como modificar sua vida com essas 8
+          Aprenda em menos de 30 dias a como modificar sua vida com essas 8
           dicas práticas para quem acha que tem TDAH ou dificuldade em
           organização e procrastinação
         </label>
