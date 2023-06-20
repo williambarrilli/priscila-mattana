@@ -15,10 +15,11 @@ export const Home = () => {
         <div className="video-player">
           <ReactPlayer
             url="https://www.youtube.com/watch?v=LgMo2cOS3HE"
-            controls={false}
+            controls={true}
             playing
             width={"100%"}
             height={"100%"}
+            muted
           />
         </div>
 
@@ -39,7 +40,6 @@ export const Home = () => {
           </button>
         </div>
       </div>
-      {/* <source src="https://youtu.be/wX9AwH8WA3g" type="video/ogg" /> */}
     </div>
   );
 };
